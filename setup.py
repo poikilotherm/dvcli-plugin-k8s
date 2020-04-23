@@ -13,4 +13,6 @@ setup(
         [dvcli.plugins]
         k8s=k8s.cli:k8s
     ''',
+    include_package_data=True,
+    package_data={'k8s': ['templates/*.yaml']},
 )
