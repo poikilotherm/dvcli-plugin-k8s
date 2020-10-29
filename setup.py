@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     packages=find_packages(),
     install_requires=[
-        'Click==7.0',
+        'click==7.1.2',
         'pykeepass==3.2.0',
         'Jinja2==2.11.1'
     ],
