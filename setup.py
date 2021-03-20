@@ -7,7 +7,7 @@ setup(
     install_requires=[
         'click==7.1.2',
         'pykeepass==3.2.0',
-        'Jinja2==2.11.1'
+        'Jinja2==2.11.3'
     ],
     entry_points='''
         [dvcli.plugins]
