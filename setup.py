@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='dvcli-k8s',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(),
     install_requires=[
-        'click==7.1.2',
-        'pykeepass==3.2.0',
-        'Jinja2==2.11.1'
+        'click==8.0.1',
+        'pykeepass==4.0.1',
+        'Jinja2==3.0.3'
     ],
     entry_points='''
         [dvcli.plugins]

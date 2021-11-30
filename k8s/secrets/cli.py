@@ -13,7 +13,7 @@ specific language governing permissions and limitations under the License.
 
 import click, getpass, logging, click_log, base64, re, gzip
 from pykeepass import PyKeePass
-from pykeepass.exceptions import CredentialsIntegrityError
+from pykeepass.exceptions import CredentialsError
 from jinja2 import Template
 
 logger = logging.getLogger(__name__)
